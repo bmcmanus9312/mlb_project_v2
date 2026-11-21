@@ -1,0 +1,5 @@
+# .gitignore
+data/00_raw/**
+!data/00_raw/**/
+!data/00_raw/**/SOURCE.md
+.env
