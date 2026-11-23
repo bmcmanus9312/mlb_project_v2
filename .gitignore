@@ -1,5 +1,8 @@
 # .gitignore
-data/00_raw/**
-!data/00_raw/**/
-!data/00_raw/**/SOURCE.md
 .env
+data/00_raw/**
+data/01_interim/**
+data/02_processed/**
+data/03_model_ready/**
+!data/**/README.md
+!data/**/SOURCE.md
